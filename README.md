@@ -1,26 +1,4 @@
 # NLTK
-
-https://www.datacamp.com/community/tutorials/simplifying-sentiment-analysis-python
-## How to Download **all** packages of NLTK on a mac:
-### In the mac terminal:
-1. Download and/or update pip "/Library/Developer/CommandLineTools/usr/bin/python3 -m pip install --upgrade pip"
-2. Installing NLTK Data on a mac (aka Download nltk datasets): "sudo pip install -U nltk"
-3. Run "python3"
-### In the mac terminal while running the python3 interpreter:
-#### How to Download **all** packages of NLTK on a mac:
-4. "import nltk"
-5. "nltk.download ('all')"
-
-
-## Adding your own corpus while using NLTK
-1. Import the required files (after you import a package you may import other files using relative referencing)
->>> import nltk 
->>> print(nltk.corpus.__file__) 
-// The path to the __int__.py will be returned. For example, /Library/Python/3.7/site-packages/nltk/corpus/__init__.py
-2. After completing 1, open the file (from terminal or finder)
->>> 
-
-__init__.py
 ## Natural Language Toolkit: Corpus Readers
 
 Copyright (C) 2001-2020 NLTK Project
@@ -34,14 +12,26 @@ functions can be used to read both the corpus files that are
 distributed in the NLTK corpus package, and corpus files that are part
 of external corpora.
 
-Available Corpora
-=================
+## 1. How to Download **all** packages of NLTK on a mac:
+### 1.1 In the mac terminal:
+1. Download and/or update pip "/Library/Developer/CommandLineTools/usr/bin/python3 -m pip install --upgrade pip"
+2. Installing NLTK Data on a mac (aka Download nltk datasets): "sudo pip install -U nltk"
+3. Run "python3"
+### 1.2 In the mac terminal while running the python3 interpreter:
+#### How to Download **all** coopora of NLTK on a mac:
+See http://www.nltk.org/nltk_data/ for a complete list of all 
+4. After importing the python3 interpreter, type the command "import nltk"
+5. To install all corpora of NLTK, use "nltk.download ('all')" or "nltk.download('movies_reviews')" to download a corpus.
+6. And you are done.
 
-Please see http://www.nltk.org/nltk_data/ for a complete list.
-Install corpora using nltk.download().
+## 2. Adding your own corpus while using NLTK
+1. Import the required files (after you import a package you may import other files using relative referencing)
+>>> import nltk 
+>>> print(nltk.corpus.__file__) 
+// The path to the __int__.py will be returned. For example, /Library/Python/3.7/site-packages/nltk/corpus/__init__.py
+2. After completing 1, open the file (from terminal or finder)
 
-Corpus Reader Functions
-=======================
+## 3. Corpus Reader Functions
 Each corpus module defines one or more "corpus reader functions",
 which can be used to read documents from that corpus.  These functions
 take an argument, ``item``, which is used to indicate which document
@@ -79,3 +69,7 @@ For example, to read a list of the words in the Brown Corpus, use
     The, Fulton, County, Grand, Jury, said, ...
 
 """
+
+## Creating a SentimentClassifier
+https://www.datacamp.com/community/tutorials/simplifying-sentiment-analysis-python
+
