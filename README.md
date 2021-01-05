@@ -69,6 +69,6 @@ For example, to read a list of the words in the Brown Corpus, use
 
 """
 
-## Creating a SentimentClassifier
+## 4. Creating a SentimentClassifier
 https://www.datacamp.com/community/tutorials/simplifying-sentiment-analysis-python
 
