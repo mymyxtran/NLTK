@@ -1,5 +1,4 @@
-# NLTK
-## Natural Language Toolkit: Corpus Readers
+# Natural Language Toolkit: Corpus Readers
 
 Copyright (C) 2001-2020 NLTK Project
 Author: Edward Loper <edloper@gmail.com>
