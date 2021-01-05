@@ -12,3 +12,9 @@ https://www.datacamp.com/community/tutorials/simplifying-sentiment-analysis-pyth
 5. "nltk.download ('all')"
 
 
+## Adding your own corpus while using NLTK
+1. Import the required files (after you import a package you may import other files using relative referencing)
+>>> import nltk
+>>> print(nltk.corpus.__file__) 
+// The path to the __int__.py will be returned. For example, /Library/Python/3.7/site-packages/nltk/corpus/__init__.py
+2. After completing 1, open the file (from terminal or finder)
