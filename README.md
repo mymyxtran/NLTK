@@ -2,7 +2,7 @@
 
 https://www.datacamp.com/community/tutorials/simplifying-sentiment-analysis-python
 ## How to Download **all** packages of NLTK on a mac:
-### In the mac terminal "command":
+### In the mac terminal:
 1. Download and/or update pip "/Library/Developer/CommandLineTools/usr/bin/python3 -m pip install --upgrade pip"
 2. Installing NLTK Data on a mac (aka Download nltk datasets): "sudo pip install -U nltk"
 3. Run "python3"
