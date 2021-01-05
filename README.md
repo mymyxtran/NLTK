@@ -22,13 +22,13 @@ https://www.datacamp.com/community/tutorials/simplifying-sentiment-analysis-pyth
 
 __init__.py
 ## Natural Language Toolkit: Corpus Readers
-#
-## Copyright (C) 2001-2020 NLTK Project
-## Author: Edward Loper <edloper@gmail.com>
-## URL: <http://nltk.org/>
-## For license information, see LICENSE.TXT
+###
+### Copyright (C) 2001-2020 NLTK Project
+### Author: Edward Loper <edloper@gmail.com>
+### URL: <http://nltk.org/>
+### For license information, see LICENSE.TXT
 
-## TODO this docstring isn't up-to-date!
+### TODO this docstring isn't up-to-date!
 """
 NLTK corpus readers.  The modules in this package provide functions
 that can be used to read corpus files in a variety of formats.  These
