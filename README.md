@@ -8,7 +8,7 @@ Step 2: Installing NLTK Data on a mac (aka Download nltk datasets): "sudo pip in
 Step 3: Run "python3"
 ## In the mac terminal while running the python3 interpreter:
 #### How to Download all packages of NLTK
-Step 4: "import nltk"
+* Step 4: "import nltk"
 Step 5: "nltk.download ()"
 
 
