@@ -1,4 +1,4 @@
-# SentimentClassifer
+# NLTK
 
 https://www.datacamp.com/community/tutorials/simplifying-sentiment-analysis-python
 ## How to Download **all** packages of NLTK on a mac:
