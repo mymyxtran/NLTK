@@ -17,8 +17,8 @@ of external corpora.
 2. Installing NLTK Data on a mac (aka Download nltk datasets): "sudo pip install -U nltk"
 3. Run "python3"
 ### 1.2 In the mac terminal while running the python3 interpreter:
-#### How to Download **all** coopora of NLTK on a mac:
-See http://www.nltk.org/nltk_data/ for a complete list of all 
+#### How to Download **all** corpora of NLTK on a mac:
+See http://www.nltk.org/nltk_data/ for a complete list of all corpora.
 4. After importing the python3 interpreter, type the command "import nltk"
 5. To install all corpora of NLTK, use "nltk.download ('all')" or "nltk.download('movies_reviews')" to download a corpus.
 6. And you are done.
