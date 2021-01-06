@@ -26,13 +26,11 @@ See http://www.nltk.org/nltk_data/ for a complete list of all corpora.
 ## 2. Adding your own corpus while using NLTK (custom corpora)
 URL: https://hub.packtpub.com/python-text-processing-nltk-20-creating-custom-corpora/
 1. import nltk
-  mycorpus = nltk.corpus.reader.CategorizedPlaintextCorpusReader(
-        r"/Users/path/to/corpus",
-        # Here we choose to keep the same format as the movie_reviews
-          r'(?!\.).*\.txt', 
-          cat_pattern=r'(neg|pos)/.*',
-          encoding="ascii") 
-3. 
+>>> mycorpus = nltk.corpus.reader.CategorizedPlaintextCorpusReader(
+>>>        r"/Users/path/to/corpus", # Here we choose to keep the same format as the movie_reviews
+>>>          r'(?!\.).*\.txt', 
+>>>          cat_pattern=r'(neg|pos)/.*',
+>>>       encoding="ascii") 
 
 ## 3. Corpus Reader Functions
 URL: http://www.nltk.org/howto/corpus.html#categorized-corpora
