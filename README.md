@@ -24,11 +24,14 @@ See http://www.nltk.org/nltk_data/ for a complete list of all corpora.
 3. And you are done.
 
 ## 2. Adding your own corpus while using NLTK
-1. Import the required files (after you import a package you may import other files using relative referencing)
->>> import nltk 
->>> print(nltk.corpus.__file__) 
-// The path to the __int__.py will be returned. For example, /Library/Python/3.7/site-packages/nltk/corpus/__init__.py
-2. After completing 1, open the file (from terminal or finder)
+1. import nltk
+  mycorpus = nltk.corpus.reader.CategorizedPlaintextCorpusReader(
+        r"/Users/path/to/corpus",
+        # Here we choose to keep the same format as the movie_reviews
+          r'(?!\.).*\.txt', 
+          cat_pattern=r'(neg|pos)/.*',
+          encoding="ascii") 
+3. 
 
 ## 3. Corpus Reader Functions
 Each corpus module defines one or more "corpus reader functions",
@@ -71,4 +74,19 @@ For example, to read a list of the words in the Brown Corpus, use
 
 ## 4. Creating a SentimentClassifier
 https://www.datacamp.com/community/tutorials/simplifying-sentiment-analysis-python
+
+1. Run 'sentiment_classifer_my_corpus.py'
+2. exec(open("/Users/mymytran/git/NLTK/sentiment_classifier_movie_reviews.py").read(), globals())
+2. 
+
+## 5. Cleaning data with python
+https://realpython.com/python-data-cleaning-numpy-pandas/
+
+### Extraneous python commands
+Find out the path where the interpreter is running
+>> import sys
+>> print(sys.executable)
+** personal: /Library/Developer/CommandLineTools/usr/bin/python3 **
+Creating a list
+>> list[]
 
