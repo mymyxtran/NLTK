@@ -93,5 +93,6 @@ Find out the path where the interpreter is running
 Creating a list
 >> list[]
 
-https://www.tensorflow.org/tutorials/keras/classification
+Next: Basic classification: Classify images of clothing
+* https://www.tensorflow.org/tutorials/keras/classification
 
